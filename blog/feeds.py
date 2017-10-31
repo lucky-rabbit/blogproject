@@ -1,3 +1,4 @@
+'''
 #coding:utf-8
 
 from django.contrib.syndication.views import Feed
@@ -25,3 +26,4 @@ class AllPostsRssFeed(Feed):
 
 	def item_description(self, item):
 		return item.body
+'''
