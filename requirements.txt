@@ -6,7 +6,6 @@ django-haystack==2.6.1
 jieba==0.39
 lxml==2.3
 Markdown==2.6.9
-MySQL-python==1.2.3
 Pygments==2.2.0
 pytz==2017.2
 requests==2.14.2
