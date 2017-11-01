@@ -2,7 +2,7 @@
 
 from django.conf.urls import url
 from . import views
-#from blog.feeds import AllPostsRssFeed
+from blog.feeds import AllPostsRssFeed
 
 指定命名空间,告诉Django这个模块属于blog应用
 app_name = 'blog'
