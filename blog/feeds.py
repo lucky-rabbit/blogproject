@@ -6,9 +6,9 @@ from .models import Post
 import sys
 
 '''添加XML格式的的RSS订阅功能'''
-
-reload(sys)
-sys.setdefaultencoding('utf8')
+#兼容py2
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 class AllPostsRssFeed(Feed):
 	tittle = 'Django博客演示项目'
